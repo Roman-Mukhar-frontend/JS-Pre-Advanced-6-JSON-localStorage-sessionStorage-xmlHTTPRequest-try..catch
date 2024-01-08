@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 100px auto 0 auto;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.form {
+    width: 500px;
+    height: 50px;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.label {
+    display: block;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.button {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: azure;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.href {
+    font-size: 18px;
+    color: blue;
+    text-align: left;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.modal-window {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 130px;
+    left: 520px;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.name,
+.email,
+.position {
+    font-size: 24px;
+    color: gray;
+}
+
+.name {
+    font-size: 36px;
+    color: black;
+}
+
+.modal-button {
+    margin-bottom: 0;
+}
+
+.help {
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 520px;
+}
+
+.incorect-email {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 375px;
+    left: 520px;
+}
+
+.empty,
+.wrongData {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 520px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

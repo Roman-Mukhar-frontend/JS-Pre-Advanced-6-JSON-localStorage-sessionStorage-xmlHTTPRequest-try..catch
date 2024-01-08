@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="box" id="signUpWindow">
+        <p class="title">Please sign up</p>
+        <form id="form">
+            <input type="text" name="firstName" placeholder="First name" class="form" id="firstName" required>
+            <input type="text" name="lastName" placeholder="Last name" class="form" id="lastName" required>
+            <input type="text" name="email" placeholder="Email address" class="form" id="email" required>
+            <input type="password" name="password" placeholder="Password" class="form" id="pass" required>
+        </form>
+        <form>
+            <input type="button" name="" id="signUp" value="Sign Up" class="button">
+        </form>
+        <p class="href" id="SignInNow">Sign in now</p>
+    </div>
+    <div class="modal-window hide" id="modalWindow">
+        <img src="img/man.png" alt="" class="img">
+        <p class="name" id="name"></p>
+        <p class="email" id="emailUser"></p>
+        <p class="position">Designer & Web Developing</p>
+        <form>
+            <input type="button" name="" id="sign" value="Sign Up" class="button modal-button">
+        </form>
+    </div>
+    <div class="help hide" id="helpWindow">
+        <p class="help-text" id="helpText">
+            Ім’я та прізвище: слово англійською з великої або маленької букви і не більше 20 символів. Цифр і інші
+            символи не допускаються.Емейл: обов'язково @. Усі букви повинні бути англійською. Загальні вимоги
+            наступні(будь-яка кількість букв, цифр, тире і крапок@будьяка кількість букв. Пароль: Від 8 до 15 символів
+            можуть бути букви та цифри.
+        </p>
+    </div>
+    <div class="incorect-email hide" id="incorectEmail">This email already exist</div>
+
+
+    <div class="box hide" id="signInWindow">
+        <p class="title">Please sign in</p>
+        <form>
+            <input type="text" name="email" placeholder="Email address" class="form" id="loginEmail" required>
+            <input type="password" name="password" placeholder="Password" class="form" id="loginPass" required>
+        </form>
+        <form>
+            <input type="button" name="" id="signIn" value="Sign In" class="button">
+        </form>
+        <p class="href" id="SignUpNow">Sign up now</p>
+        <div class="empty hide" id="empty">Localstorage is empty</div>
+        <div class="wrongData hide" id="wrongData">Incorrect email or password</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
